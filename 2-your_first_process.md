@@ -13,11 +13,11 @@ A good overview on it can be found [Niall Deehan's series of videos](https://www
 
 ## Step 3. Creating a simple model
 
-Load up your modeler of choice. In our case, Camunda Modeler. Now it's time to create a small process. 
+Load up your modeler of choice. In our case, Camunda Modeler. Now it's time to create a small process.
 
 Let's start of by creating a simple process, one start event, one or two intermediary tasks and one end event. **Make sure to give your process a name, otherwise it will not run!**
 
-![BPMN example](tuto2_img1.PNG)
+![BPMN example](images/guide_2/simple_process.PNG)
 
 Once you have your process ready, save it locally.
 
