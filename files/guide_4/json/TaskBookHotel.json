@@ -1,0 +1,26 @@
+{
+  "fields": [
+    {
+      "fieldName": "hotelName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hotelBookingNumber",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityType": "user-task-form",
+  "processBpmnId": "TravelPlanBpmnId",
+  "processEntityName": "ProcessTravelPlan",
+  "taskBpmnId": "TaskHotel",
+  "domainEntityName": "DomainTravelPlan",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "TaskBookHotel",
+  "changelogDate": "20210401000004"
+}
