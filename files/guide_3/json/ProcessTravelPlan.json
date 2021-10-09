@@ -1,0 +1,20 @@
+{
+  "fields": [
+    {
+      "fieldName": "airline",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityType": "process-binding",
+  "processBpmnId": "TravelPlanBpmnId",
+  "domainEntityName": "DomainTravelPlan",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "ProcessTravelPlan",
+  "changelogDate": "20210920183338"
+}

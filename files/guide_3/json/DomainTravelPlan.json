@@ -1,0 +1,18 @@
+{
+  "fields": [
+    {
+      "fieldName": "airline",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityType": "domain",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "DomainTravelPlan",
+  "changelogDate": "20210920183141"
+}

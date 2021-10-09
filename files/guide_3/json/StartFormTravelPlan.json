@@ -1,0 +1,16 @@
+{
+  "fields": [],
+  "relationships": [],
+  "entityType": "start-form",
+  "processBpmnId": "TravelPlanBpmnId",
+  "processEntityName": "ProcessTravelPlan",
+  "domainEntityName": "DomainTravelPlan",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "name": "StartFormTravelPlan",
+  "changelogDate": "20210401000002",
+  "skipFakeData": true
+}
