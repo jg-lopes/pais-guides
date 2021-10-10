@@ -10,9 +10,9 @@ This repository is an ongoing project to provide guides and tutorials for a hand
 
 ### 3. Scaffolding process + UserForm - DONE
 
-### 4. Complex UserForm example
+### 4. Complex UserForm example - DONE
 
-### 5. Service Task process
+### 5. Service Task process - DONE
 
 ### 6. Gateway 
 #### 6.1. Parallel (AND)
