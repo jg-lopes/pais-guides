@@ -1,0 +1,21 @@
+{
+  "fields": [
+    {
+      "fieldName": "code",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityType": "start-form",
+  "processBpmnId": "DefuseProcessId",
+  "domainEntityName": "DomainDefuse",
+  "processEntityName": "ProcessDefuse",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "name": "StartFormDefuse",
+  "changelogDate": "20210401000002",
+  "skipFakeData": true
+}

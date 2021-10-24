@@ -1,0 +1,22 @@
+{
+  "fields": [
+    {
+      "fieldName": "code",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityType": "user-task-form",
+  "processBpmnId": "DefuseProcessId",
+  "domainEntityName": "DomainDefuse",
+  "processEntityName": "ProcessDefuse",
+  "taskBpmnId": "DefuseBomb",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "TaskDefuseBomb",
+  "changelogDate": "20210401000004"
+}
