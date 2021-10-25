@@ -1,27 +1,7 @@
 # README
 
-This repository is an ongoing project to provide guides and tutorials for a hands-on learning approach of Agilekip's Process Aware Information Systems Scaffolding.
+This repositor providse guides and tutorials for a hands-on learning approach of Agilekip's Process Aware Information Systems Scaffolding (PAIS).
 
-## Structure of Docs
+PAIS enables the simple transformation of Business Processes into interactive and executable webapps using JHipster. With it, you can seamlessly transform BPMN files into software systems automatically, with only a minimal amount of set-up and maintenance.
 
-### 1. Install - DONE
-
-### 2. First process (only task) + Upload into PAIS - DONE
-
-### 3. Scaffolding process + UserForm - DONE
-
-### 4. Complex UserForm example - DONE
-
-### 5. Service Task process - DONE
-
-### 6. Gateway 
-#### 6.1. Parallel (AND)
-#### 6.2. Exclusive (XOR)
-#### 6.3. Inclusive (OR)
- 
-### 7. Loop paralellism - Multiple Instance Seg and Parallel - https://docs.camunda.org/manual/7.15/reference/bpmn20/tasks/task-markers/
-#### 7.1. Sequential
-#### 7.2. Parallel
-#### 7.3. Loop
-
-### 8. Event-Based Gateway
+These tutorials are self-contained, but are best followed sequentially. Interested? Go to the Install Guide for setting up PAIS into your system or, if you already have it installed, start by learning how to create Your First Process.
