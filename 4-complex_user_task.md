@@ -155,7 +155,7 @@ Note as well that the Task that rents a car is very straight forward. Editing th
 
 Proceed to Scaffold the JSONs as did previously and restart the server. Load your BPMN file as usual and initialize the process, now you might see a new greeting:
 
-![Your Process Greeting](images\guide_4\process_greeting.PNG)
+![Your Process Greeting](images/guide_4/process_greeting.PNG)
 
 Notice your new process greeting with the formatted Markdown. It was that easy!
 
@@ -163,11 +163,11 @@ Also notice that the variable names will unnest from the CamelCase and format au
 
 After intializing your process you will be greeted by a process overview:
 
-![](images\guide_4\process_overview.PNG)
+![](images/guide_4/process_overview.PNG)
 
 Which in turn will show you the Task Execution UI with your description for the given Task once it's running:
 
-![](images\guide_4\task_execution.PNG)
+![](images/guide_4/task_execution.PNG)
 
 ## Conclusion
 

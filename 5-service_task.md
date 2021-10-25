@@ -10,11 +10,11 @@ Before thinking about executing code, you should first think of when, in your pr
 
 Once the correct timing for the code to be executed has been established, insert an Activity containing a Service Task into your process flow. In our example, we will create a code to print into the console a report containing the variables inserted by the user on the process setup and the user task.
 
-![](images\guide_5\process.PNG)
+![](images/guide_5/process.PNG)
 
 Service Tasks do not need JSONs since they won't be scaffolded directly, but instead it will be you who will provide the code for them. Thus, we will create a Delegate Expression that will be called once the process arrives at this Service Task.
 
-![](images\guide_5\delegate.PNG)
+![](images/guide_5/delegate.PNG)
 
 Notice that on the delegate expression we will create a token like `${outputDelegate}`. **Ensure that this expression is in CamelCase and that the first letter is in lower case.**
 
@@ -24,7 +24,7 @@ And that's simply it! Now let's move on to the implementation of this Delegate.
 
 Move to your project folder and scaffold all JSON files you might have. Once done, go to src/main/java/[your organization name]. There, create a delegates folder and put inside of it .java files for each Delegate you created in your process. In our case, that will be only OutputDelegate.java:
 
-![images\guide_5\delegates_folder.PNG]
+![images/guide_5/delegates_folder.PNG]
 
 Notice how on this time the first letter is in **upper case**. This is important and you might have issues executing your function if it's incorrectly named.
 
@@ -75,11 +75,11 @@ And that is all you need to interact with your process. Take a look into the DTO
 
 Once this is done, recompile your server by executing the `mvnw` file. Follow the procedures as usual, intializing the process and filing the UserTasks as demanded. 
 
-![](images\guide_5\form_task.png)
+![](images/guide_5/form_task.png)
 
 Once you reach the Service Task, PAIS will automatically execute your code! In our example, you can check out the printed lines with the user provided input from the console of the server:
 
-![](images\guide_5\console_output.png)
+![](images/guide_5/console_output.png)
 
 And that's all for the Service Tasks!
 
