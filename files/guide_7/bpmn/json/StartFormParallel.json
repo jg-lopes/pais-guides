@@ -1,0 +1,16 @@
+{
+  "fields": [],
+  "relationships": [],
+  "entityType": "start-form",
+  "processBpmnId": "ParallelProcessId",
+  "processEntityName": "ProcessParallel",
+  "domainEntityName": "DomainParallel",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "name": "StartFormParallel",
+  "changelogDate": "20210401000002",
+  "skipFakeData": true
+}

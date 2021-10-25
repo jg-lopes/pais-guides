@@ -1,0 +1,15 @@
+{
+  "fields": [],
+  "relationships": [],
+  "entityType": "process-binding",
+  "processBpmnId": "ParallelProcessId",
+  "domainEntityName": "DomainParallel",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "ProcessParallel",
+  "changelogDate": "20210920183338"
+}
